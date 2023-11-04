@@ -1,0 +1,89 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+h1,h2{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 500;
+}
+
+a{
+    text-decoration: none;
+}
+
+li{
+    list-style: none;
+}
+
+.flex_space{
+    display: flex;
+}
+
+.side-nav{
+    display: flex;
+}
+
+.head-nav{
+    display: flex;
+    justify-content: space-between;
+}
+
+button{
+    border: none;
+    background: none;
+    outline: none;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+.bookn-btn{
+    padding: 15px 40px;
+    background: #0D91A3;
+    font-weight: bold;
+    color: white;
+}
+
+.sec-btn{
+    padding: 15px 40px;
+    background: none;
+    border: 2px solid white;
+    font-weight: bold;
+    color: white;
+}
+
+.container{
+    max-width: 80%;
+    margin: auto;
+}
+
+header{
+    height: 10vh;
+    line-height: 10vh;
+    padding: 0 20px;
+}
+
+.logo{
+    margin: 20px 0;
+    height: 25px;
+    width: 25px;
+}
+
+#headlist{
+    display: inline-block;
+}
+
+#headlist li{
+    display: inline-block;
+    text-transform: uppercase;
+}
+
+#headlist li a{
+    color: #000;
+    margin: 0 10px;
+}
