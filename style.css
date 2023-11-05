@@ -21,15 +21,11 @@ li{
     list-style: none;
 }
 
+.flex{
+    display: flex;
+}
+
 .flex_space{
-    display: flex;
-}
-
-.side-nav{
-    display: flex;
-}
-
-.head-nav{
     display: flex;
     justify-content: space-between;
 }
@@ -68,22 +64,33 @@ header{
     padding: 0 20px;
 }
 
-.logo{
-    margin: 20px 0;
-    height: 25px;
-    width: 25px;
-}
-
-#headlist{
+header ul{
     display: inline-block;
 }
 
-#headlist li{
+header ul li{
     display: inline-block;
     text-transform: uppercase;
 }
 
-#headlist li a{
+header ul li a{
     color: #000;
     margin: 0 10px;
+    transition: 0.5s;
+}
+
+header ul li a:hover{
+    color :  #0D91A3;
+}
+
+header i{
+    margin: 0 20px;
+}
+
+header button{
+    padding: 13px 40px;
+}
+
+header .navlink span{
+    display: none;
 }
