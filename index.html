@@ -27,7 +27,17 @@
     </header>
 
     <script>
-        var menulist
+        var navlist = document.getElementById('navlist');
+        navlist.style.maxHeight = "0px";
+
+        function navtoggle(){
+            if(navlist.style.maxHeight == "0px"){
+                navlist.style.maxHeight = "100vh";
+            }
+            else{
+                navlist.style.maxHeight = "0px";
+            }
+        }
     </script>
 </body>
 </html>
