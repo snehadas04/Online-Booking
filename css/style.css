@@ -42,7 +42,7 @@ button {
 
 .primary-btn {
   padding: 15px 40px;
-  background: #7fc142;
+  background: #0D91A3;
   font-weight: bold;
   color: white;
 }
@@ -87,7 +87,7 @@ header ul li a {
 }
 
 header ul li a:hover {
-  color: #7fc142;
+  color: #0D91A3;
 }
 
 header i {
@@ -109,7 +109,7 @@ header .navlinks span {
     left: 0;
     width: 100%;
     height: 100vh;
-    background: #009f7f;
+    background: #0D91A3;
     overflow: hidden;
     transition: max-height 0.5s;
     text-align: center;
@@ -216,7 +216,7 @@ h1 {
 }
 
 .book h1 span {
-  color: #7fc142;
+  color: #0D91A3;
 }
 
 .book input {
@@ -224,7 +224,7 @@ h1 {
 }
 
 .book input:nth-last-child(1) {
-  background: #7fc142;
+  background: #0D91A3;
   color: #fff;
 }
 
@@ -304,7 +304,7 @@ h1 {
 .counter hr {
   width: 50%;
   margin: 10px auto;
-  background: #7fc142;
+  background: #0D91A3;
   height: 2px;
   border: none;
 }
@@ -338,7 +338,7 @@ h1 {
   line-height: 20px;
   margin-left: 20px;
   font-weight: 500;
-  color: #7fc142;
+  color: #0D91A3;
 }
 
 .rooms h3 span {
@@ -353,7 +353,7 @@ h1 {
   top: -20%;
   height: 50px;
   width: 50px;
-  background: #7fc142 !important;
+  background: #0D91A3 !important;
 }
 
 .owl-carousel1 .owl-nav .owl-prev i,
@@ -471,7 +471,7 @@ h1 {
 
 .services i {
   font-size: 50px;
-  color: #7fc142;
+  color: #0D91A3;
   transition: 0.5s;
 }
 
