@@ -140,13 +140,13 @@ header .navlinks span {
 /*--------header---------*/
 /*--------home---------*/
 .home {
-  height: 100vh;
+  height: 60vh;
   color: #fff;
 }
 
 .home img {
   width: 100%;
-  height: 100vh;
+  height: 60vh;
 }
 
 .home .text {
