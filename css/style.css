@@ -317,35 +317,9 @@ h1 {
 }
 
 .place .text {
-  border: 1px solid rgba(0, 0, 0, 0.1);
+
   border-top: none;
-  padding: 30px;
-}
-
-.place i {
-  font-size: 12px;
-  color: #fbb234;
-  margin: 15px 0;
-  margin-right: 5px;
-}
-
-.place p {
-  margin: 20px 0;
-  opacity: 0.7;
-}
-
-.place h3 {
-  font-size: 30px;
-  line-height: 20px;
-  margin-left: 20px;
-  font-weight: 500;
-  color: #0D91A3;
-}
-
-.place h3 span {
-  font-size: 15px;
-  font-weight: 400;
-  color: #000;
+  padding: 10px;
 }
 
 .owl-carousel1 .owl-nav .owl-prev,
