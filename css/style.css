@@ -311,30 +311,30 @@ h1 {
 }
 
 /*--------counter---------*/
-/*--------rooms---------*/
-.rooms {
+/*--------place---------*/
+.place {
   position: relative;
 }
 
-.rooms .text {
+.place .text {
   border: 1px solid rgba(0, 0, 0, 0.1);
   border-top: none;
   padding: 30px;
 }
 
-.rooms i {
+.place i {
   font-size: 12px;
   color: #fbb234;
   margin: 15px 0;
   margin-right: 5px;
 }
 
-.rooms p {
+.place p {
   margin: 20px 0;
   opacity: 0.7;
 }
 
-.rooms h3 {
+.place h3 {
   font-size: 30px;
   line-height: 20px;
   margin-left: 20px;
@@ -342,7 +342,7 @@ h1 {
   color: #0D91A3;
 }
 
-.rooms h3 span {
+.place h3 span {
   font-size: 15px;
   font-weight: 400;
   color: #000;
@@ -370,7 +370,7 @@ h1 {
   right: 0;
 }
 
-/*--------rooms---------*/
+/*--------place---------*/
 /*--------gallery---------*/
 .gallery {
   position: relative;
@@ -745,8 +745,8 @@ footer label {
     left: 75%;
   }
 
-  .rooms .owl-nav .owl-prev,
-  .rooms .owl-nav .owl-next {
+  .place .owl-nav .owl-prev,
+  .place .owl-nav .owl-next {
     top: -30%;
   }
 
