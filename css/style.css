@@ -316,18 +316,23 @@ h1 {
   position: relative;
 }
 
-.place .text {
+.place .image{
+  align-items: center;
+  margin: 20px;
+  position: relative;
+}
 
+.place .text {
   border-top: none;
-  padding: 10px;
+  padding: 5px;
 }
 
 .owl-carousel1 .owl-nav .owl-prev,
 .owl-carousel1 .owl-nav .owl-next {
   position: absolute;
-  top: -20%;
-  height: 50px;
-  width: 50px;
+  top: -10%;
+  height: 30px;
+  width: 30px;
   background: #0D91A3 !important;
 }
 
@@ -337,7 +342,7 @@ h1 {
 }
 
 .owl-carousel1 .owl-nav .owl-prev {
-  left: 90%;
+  left: 0;
 }
 
 .owl-carousel1 .owl-nav .owl-next {
