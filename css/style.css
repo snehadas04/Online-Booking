@@ -312,18 +312,16 @@ h1 {
 
 /*--------counter---------*/
 /*--------place---------*/
-.place {
+.place .heading {
   position: relative;
 }
 
-.place .image{
-  align-items: center;
-  margin: 20px;
-  position: relative;
+.place .image {
+  margin: 10px;
 }
 
 .place .text {
-  border-top: none;
+  font-family: 'Times New Roman', Times, serif;
   padding: 5px;
 }
 
@@ -369,7 +367,7 @@ h1 {
   position: absolute;
   top: 0;
   left: 0;
-  background: rgba(126, 193, 65, 0.86);
+  background: #0D91A3;
   width: 255px;
   height: 251px;
   z-index: 2;
@@ -409,16 +407,16 @@ h1 {
 }
 
 .gallery .owl-nav .owl-prev {
-  left: 85%;
+  left: 0;
 }
 
 .gallery .owl-nav .owl-next {
-  right: 5%;
+  right: 0;
 }
 
 .gallery .owl-nav .owl-next,
 .gallery .owl-nav .owl-prev {
-  top: -40%;
+  top: 10%;
 }
 
 /*--------gallery---------*/
