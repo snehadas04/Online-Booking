@@ -482,7 +482,7 @@ h1 {
   background-image: url("../images/background-2.png");
   background-size: cover;
   background-repeat: no-repeat;
-  height: 70vh;
+  height: 80vh;
   width: 100%;
   color: #fff;
   text-align: center;
@@ -507,11 +507,11 @@ h1 {
 }
 
 .Customer p {
-  line-height: 30px;
+  line-height: 25px;
 }
 
 .Customer h3 {
-  margin-top: 20px;
+  margin-top: 10px;
   color: #0D91A3;
 }
 
