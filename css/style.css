@@ -316,6 +316,11 @@ h1 {
   position: relative;
 }
 
+.place img{
+  width: 300px;
+  height: 200px;
+}
+
 .place .image {
   margin: 10px;
 }
@@ -348,37 +353,33 @@ h1 {
 }
 
 /*--------place---------*/
-/*--------gallery---------*/
-.gallery {
+/*--------spot---------*/
+.spot {
   position: relative;
 }
 
-.gallery img {
-  width: 100%;
-  height: 100%;
+.spot img {
+  width: 200px;
+  height: 200px;
 }
 
-.gallery .img {
+.spot .img {
   position: relative;
 }
 
-.gallery .img::after {
+.spot .img::after {
   content: '';
   position: absolute;
   top: 0;
   left: 0;
-  background: #0D91A3;
-  width: 255px;
-  height: 251px;
   z-index: 2;
-  opacity: 0;
   transition: 0.5s;
 }
 
 .overlay {
   position: absolute;
-  top: 35%;
-  left: 25%;
+  top: 30%;
+  left: 15%;
   z-index: 3;
   text-align: center;
   color: white;
@@ -386,7 +387,7 @@ h1 {
   transition: 0.5s;
 }
 
-.gallery span {
+.spot span {
   width: 50px;
   height: 50px;
   line-height: 50px;
@@ -400,40 +401,43 @@ h1 {
   font-weight: 500;
 }
 
-.gallery .items:hover .overlay,
-.gallery .items:hover .img::after {
+.spot .items:hover .overlay,
+.spot .items:hover .img::after {
   opacity: 1;
   cursor: pointer;
 }
 
-.gallery .owl-nav .owl-prev {
+.spot .owl-nav .owl-prev {
   left: 0;
 }
 
-.gallery .owl-nav .owl-next {
+.spot .owl-nav .owl-next {
   right: 0;
 }
 
-.gallery .owl-nav .owl-next,
-.gallery .owl-nav .owl-prev {
+.spot .owl-nav .owl-next,
+.spot .owl-nav .owl-prev {
   top: 10%;
 }
 
-/*--------gallery---------*/
+/*--------spot---------*/
 /*--------services---------*/
-.services {
-  position: relative;
-}
-
-.grid2 {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  grid-gap: 30px;
-}
 
 .services .left {
   padding: 30px 0;
 }
+
+.services{
+  position: relative;
+  margin: 20px;
+}
+
+.grid2 {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 20px;
+}
+
 
 .services .box {
   border: 1px solid rgba(0, 0, 0, 0.1);
@@ -460,10 +464,6 @@ h1 {
   transition: 0.5s;
 }
 
-.services img {
-  width: 100%;
-  height: 100%;
-}
 
 .services .box:hover {
   background: #0D91A3;
@@ -544,94 +544,40 @@ h1 {
 }
 
 /*--------Customer---------*/
-/*--------news---------*/
-.news {
+
+
+/*--------subscriber---------*/
+.subscriber {
   position: relative;
+  margin-top: 100px;
 }
 
-.news i {
-  color: #0D91A3;
-  text-transform: capitalize;
-  font-size: 18px;
-}
-
-.news label {
-  margin-top: 12px;
-  margin-right: 20px;
-}
-
-.news .left {
-  padding: 30px 0;
-  width: 65%;
-}
-
-.news .right {
-  width: 35%;
-}
-
-.news img {
-  width: 100%;
-}
-
-.news .items p {
-  padding-top: 20px;
-  border-top: 1px solid rgba(0, 0, 0, 0.2);
-}
-
-.news .box {
-  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
-  padding: 40px 0;
-}
-
-.news .box:nth-child(1) {
-  padding-top: 0;
-}
-
-.news .box:nth-last-child(1) {
-  border-bottom: none;
-}
-
-.news .box img {
-  width: 110px;
-  height: 114px;
-}
-
-.news .stext {
-  padding: 0 0 0 20px;
-}
-
-/*--------news---------*/
-/*--------newsletter---------*/
-.newsletter {
-  position: relative;
-}
-
-.newsletter .container {
+.subscriber .container {
   background: #0D91A3;
-  padding: 40px 30px;
+  padding: 20px 30px;
   position: absolute;
-  top: -70px;
+  top: -50px;
   left: 8%;
   width: 100%;
 }
 
-.newsletter h1 {
+.subscriber h1 {
   width: 100%;
-  font-size: 30px;
+  font-size: 40px;
   color: #fff;
   margin-top: 10px;
 }
 
-.newsletter input {
-  padding: 20px;
+.subscriber input {
+  padding: 15px;
 }
 
-.newsletter input:nth-last-child(2) {
-  width: 80%;
+.subscriber input:nth-last-child(2) {
+  width: 90%;
   background: rgba(193, 234, 234, 0.4);
 }
 
-.newsletter input:nth-last-child(1) {
+.subscriber input:nth-last-child(1) {
   margin-left: 20px;
   width: 30%;
   text-align: center;
@@ -639,12 +585,12 @@ h1 {
   text-transform: uppercase;
 }
 
-/*--------newsletter---------*/
+/*--------subscriber---------*/
 /*--------footer---------*/
 footer {
   background: #282834;
   color: #b6b7b9;
-  padding: 10% 0 5% 0;
+  padding: 8% 0 5% 0;
 }
 
 footer .grid {
@@ -718,7 +664,7 @@ footer label {
     left: 80%;
   }
 
-  .gallery .owl-nav .owl-prev {
+  .spot .owl-nav .owl-prev {
     left: 75%;
   }
 
@@ -727,8 +673,8 @@ footer label {
     top: -30%;
   }
 
-  .gallery .owl-nav .owl-prev,
-  .gallery .owl-nav .owl-next {
+  .spot .owl-nav .owl-prev,
+  .spot .owl-nav .owl-next {
     top: -80%;
   }
 
@@ -762,12 +708,12 @@ footer label {
     width: 100%;
   }
 
-  .newsletter {
+  .subscriber {
     position: relative;
     background: #044e62;
   }
 
-  .newsletter .container {
+  .subscriber .container {
     top: 0;
     left: 0;
     width: 100%;
@@ -775,16 +721,16 @@ footer label {
     position: relative;
   }
 
-  .newsletter .flex_space {
+  .subscriber .flex_space {
     flex-direction: column;
   }
 
-  .newsletter input:nth-last-child(2) {
+  .subscriber input:nth-last-child(2) {
     margin: 20px 0;
     width: 100%;
   }
 
-  .newsletter input:nth-last-child(1) {
+  .subscriber input:nth-last-child(1) {
     margin: 0;
   }
 
