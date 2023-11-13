@@ -230,7 +230,7 @@ h1 {
 
 /*--------book---------*/
 /*--------about---------*/
-.left, .right {
+.about .left {
   width: 50%;
   padding: 25px;
 }
@@ -276,6 +276,10 @@ h1 {
   font-size: 15px;
 }
 
+.about img{
+  height: 200px;
+  width: 250px;
+}
 .about button {
   margin: 30px 0;
 }
