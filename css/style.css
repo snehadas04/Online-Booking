@@ -593,6 +593,38 @@ h1 {
 }
 
 /*--------subscriber---------*/
+
+.contactUs h1 {
+  font-size: 2.3rem;
+  font-weight: 800;
+  letter-spacing: 1.5px;
+}
+
+.contactUs p {
+  font-size: 1.2rem;
+  margin-bottom: 20px;
+}
+
+.contactUs textarea,
+.contactUs input {
+  font-size: 1.2rem;
+  width: 100%;
+  padding: 0.5rem 1rem;
+  margin-bottom: 10px;
+  border: 2px solid rgba(11, 84, 84, 0.4);
+  border-radius: 5px;
+}
+
+.contactUs textarea {
+  height: 160px;
+}
+
+.contactUs input:focus,
+.contactUs textarea:focus {
+  outline: none;
+  border-color: rgba(11, 84, 84, 0.4);
+}
+
 /*--------footer---------*/
 footer {
   background: #282834;
