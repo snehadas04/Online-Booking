@@ -5,11 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login Page</title>
+    <link rel="stylesheet" href="../css/style.css">
     <style>
-        body{
-            font-family: 'Oswald', sans-serif;
-            font-family: 'Roboto', sans-serif;
-        }
         #container{
             display: flex;
             justify-content: space-around;
@@ -19,13 +16,7 @@
             margin: auto;
             margin-top: 110px;
         }
-        #logo{
-            width: 16%;
-            margin-top: -40px;
-            margin-left: -220px;
-            margin-bottom: 30px;
-        }
-       
+
         #login{
             display: flex;
             justify-content: space-around;
@@ -52,22 +43,6 @@
            border: 1px solid rgb(163, 155, 155);
         }
         
-        button{
-            padding: 15px ;
-            border-radius: 10px;
-            margin: 5px 2px;
-            width: 97.5%;
-            background-color:rgb(62, 123, 203) ;
-            border: none;
-            color: rgb(255, 255, 255);
-            font-weight: bolder;
-            font-size: 16px;
-        }
-        button:hover{
-            background-color: #2d6995;
-        }
-        
-        
         p{  
             padding: 0px 10px;
             font-size: 15px;
@@ -90,10 +65,29 @@
     </style>
 </head>
 <body>
-      <div id="container">
-         
-            <img  id="logo" src="https://auth.trivago.com/_static/icons/logo.svg" alt="">
-          
+    <header>
+        <div class="content flex_space">
+          <div class="logo">
+            <img src="../Images/logo.png" height="40px" width="80px" alt="">
+          </div>
+          <div class="navlinks">
+            <ul id="menulist">
+              <li><a href="../index.html">home</a> </li>
+              <li><a href="#about">about</a> </li>
+              <li><a href="#place">place</a> </li>
+              <li><a href="#hotel">hotel</a> </li>
+              <li><a href="#account">account</a> </li>
+              <li><a href="#book">book</a> </li>
+              <li><a href="#login">login</a> </li>
+              <li><a href="./html/contact.html">contact</a></li>
+              <li><a href="#search">search</a> </li>
+              <li> <button class="primary-btn">BOOK NOW</button> </li>
+            </ul>
+            <span class="fa fa-bars" onclick="menutoggle()"></span>
+          </div>
+        </div>
+    </header>
+      <div id="container">  
           <b id="id">hi</b>
           <div id="login">
             <h1>Enter your password</h1>
