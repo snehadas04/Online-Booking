@@ -191,8 +191,8 @@ header .navlinks span {
 /*--------book---------*/
 .grid {
   display: grid;
-  grid-template-columns: repeat(5, 1fr);
-  grid-gap: 10px;
+  grid-template-columns: repeat(6, 1fr);
+  grid-gap: 5px;
 }
 
 input {
@@ -212,7 +212,7 @@ h1 {
 }
 
 .book h1 {
-  font-size: 30px;
+  font-size: 20px;
 }
 
 .book h1 span {
@@ -220,7 +220,7 @@ h1 {
 }
 
 .book input {
-  padding: 20px;
+  padding: 10px;
 }
 
 .book input:nth-last-child(1) {
@@ -594,6 +594,8 @@ h1 {
 
 /*--------subscriber---------*/
 
+/*---------contact page--------*/
+
 .contactUs h1 {
   font-size: 2.3rem;
   font-weight: 800;
@@ -624,6 +626,7 @@ h1 {
   outline: none;
   border-color: rgba(11, 84, 84, 0.4);
 }
+/*---------contact page--------*/
 
 /*--------footer---------*/
 footer {
