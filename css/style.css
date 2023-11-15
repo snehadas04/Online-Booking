@@ -192,7 +192,7 @@ header .navlinks span {
 .grid {
   display: grid;
   grid-template-columns: repeat(6, 1fr);
-  grid-gap: 5px;
+  grid-gap: 10px;
 }
 
 input {
@@ -202,7 +202,7 @@ input {
 }
 
 .book {
-  padding: 20px 0;
+  padding: 25px 0;
   background: #efcb17;
   color: #fff;
 }
@@ -212,7 +212,7 @@ h1 {
 }
 
 .book h1 {
-  font-size: 20px;
+  font-size: 25px;
 }
 
 .book h1 span {
@@ -220,7 +220,7 @@ h1 {
 }
 
 .book input {
-  padding: 10px;
+  padding: 18px;
 }
 
 .book input:nth-last-child(1) {
