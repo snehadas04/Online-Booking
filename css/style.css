@@ -629,10 +629,8 @@ h1 {
 /*---------contact page--------*/
 
 /*---------search page----------*/
-.searchItem .right{
-  width: 60%;
-}
 .searchItem {
+  width: 70%;
   border: 3px solid rgb(41, 122, 171);
   padding: 10px;
   border-radius: 5px;
