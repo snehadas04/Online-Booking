@@ -648,12 +648,14 @@ h1 {
 .siDesc {
   display: flex;
   flex-direction: column;
-  gap: 10px;
+  gap: 4px;
   flex: 2;
 }
 
 .siTitle {
-  font-size: 20px;
+  font-size: 28px;
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: bold;
   color: #0071c2;
 }
 
@@ -666,17 +668,17 @@ h1 {
   background-color: #008009;
   color: white;
   width: max-content;
-  padding: 3px;
-  border-radius: 5px;
+  padding: 4px;
+  border-radius: 3px;
 }
 
 .siSubtitle{
-  font-size: 12px;
+  font-size: 14px;
   font-weight: bold;
 }
 
 .siFeatures{
-  font-size: 12px;
+  font-size: 14px;
 }
 
 .siCancelOp{
@@ -721,19 +723,20 @@ h1 {
 }
 
 .siPrice{
-  font-size: 24px;
+  font-size: 25px;
 }
 
 .siTaxOp{
-  font-size: 12px;
+  font-size: 10px;
   color: gray;
 }
 
 .siCheckButton{
   background-color: #0071c2;
   color: white;
+  font-size: 18px;
   font-weight: bold;
-  padding: 10px 5px;
+  padding: 8px 5px;
   border: none;
   cursor: pointer;
   border-radius: 5px;
