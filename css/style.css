@@ -229,6 +229,99 @@ h1 {
 }
 
 /*--------book---------*/
+
+/*--------login--------*/
+#container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: column;
+  width: 50%;
+  margin: auto;
+  margin-top: 110px;
+}
+
+#login {
+  display: flex;
+  justify-content: space-around;
+  /* align-items: center; */
+  flex-direction: column;
+  width: 45%;
+}
+
+h1 {
+
+  font-size: 29.5px;
+}
+
+label {
+  margin-top: 20px;
+  margin-bottom: 10px;
+  font-size: 13px;
+  font-weight: bolder;
+  margin: 2px;
+}
+
+input {
+  padding: 15px 15px;
+  border-radius: 10px;
+  margin: 10px 2px;
+  width: 88%;
+  border: 1px solid rgb(163, 155, 155);
+}
+
+.other {
+  display: flex;
+  padding: 2px 20px;
+
+  align-items: center;
+  border: 1px solid rgb(109, 116, 102);
+  margin: 5px;
+  border-radius: 10px;
+}
+
+.other:hover {
+  background-color: rgb(116, 111, 111);
+  color: rgb(255, 255, 255);
+}
+
+.image {
+  width: 9%;
+  margin-right: 50px;
+}
+
+#or {
+  text-align: center;
+  z-index: 1;
+  background-color: rgb(255, 255, 255);
+  color: #a09999;
+  font-size: 15px;
+  font-weight: 500;
+  width: 5%;
+  margin: auto;
+  margin-bottom: 10px;
+
+}
+
+p {
+  padding: 0px 10px;
+  font-size: 14px;
+  line-height: 20px;
+}
+
+span {
+  color: #56a7e1;
+}
+
+hr {
+  position: relative;
+  top: 20px;
+  width: 94%;
+  z-index: -1;
+}
+        
+/*--------login--------*/
+
 /*--------about---------*/
 .about .left {
   width: 70%;
