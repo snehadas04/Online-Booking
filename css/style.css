@@ -378,7 +378,7 @@ font-family:Arial, Helvetica, sans-serif
 
 /*--------login2--------*/
 
-<style>
+/*--------signup---------*/
         #sign{
             display: flex;
             justify-content: space-around;
@@ -432,8 +432,7 @@ font-family:Arial, Helvetica, sans-serif
          right: 8%;
 
         }
-       
-    </style>
+/*--------signup---------*/
 
 /*--------about---------*/
 .about .left {
