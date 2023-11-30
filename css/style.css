@@ -231,7 +231,7 @@ h1 {
 /*--------book---------*/
 
 /*--------login--------*/
-#container {
+#log {
   display: flex;
   justify-content: space-around;
   align-items: center;
@@ -249,12 +249,12 @@ h1 {
   width: 45%;
 }
 
-h1 {
+#login h1 {
 
   font-size: 29.5px;
 }
 
-label {
+#login label {
   margin-top: 20px;
   margin-bottom: 10px;
   font-size: 13px;
@@ -262,7 +262,7 @@ label {
   margin: 2px;
 }
 
-input {
+#login input {
   padding: 15px 15px;
   border-radius: 10px;
   margin: 10px 2px;
@@ -270,7 +270,7 @@ input {
   border: 1px solid rgb(163, 155, 155);
 }
 
-.other {
+#login .other {
   display: flex;
   padding: 2px 20px;
 
@@ -280,17 +280,17 @@ input {
   border-radius: 10px;
 }
 
-.other:hover {
+#login .other:hover {
   background-color: rgb(116, 111, 111);
   color: rgb(255, 255, 255);
 }
 
-.image {
+#login .image {
   width: 9%;
   margin-right: 50px;
 }
 
-#or {
+#login #or {
   text-align: center;
   z-index: 1;
   background-color: rgb(255, 255, 255);
@@ -303,17 +303,17 @@ input {
 
 }
 
-p {
+#login p {
   padding: 0px 10px;
   font-size: 14px;
   line-height: 20px;
 }
 
-span {
+#login span {
   color: #56a7e1;
 }
 
-hr {
+#login hr {
   position: relative;
   top: 20px;
   width: 94%;
