@@ -323,7 +323,7 @@ h1 {
 /*--------login--------*/
 
 /*--------login2--------*/
-#container{
+#log{
   display: flex;
   justify-content: space-around;
   align-items: center;
@@ -340,37 +340,36 @@ h1 {
   flex-direction: column;
   width: 45%;
 }
-h1{
+#login h1{
  
   font-size: 29.5px;
 }
-label{
+#login label{
   margin-top: 20px;
   margin-bottom: 10px;
   font-size: 13px;
   font-weight: bolder;
   margin: 2px;
 }
-input{
+#login input{
   padding: 15px 15px;
   border-radius: 10px;
   margin: 10px 2px;
   width: 88%;
  border: 1px solid rgb(163, 155, 155);
 }
-
-p{  
+#login p{  
   padding: 0px 10px;
   font-size: 15px;
 }
-a{
+#login a{
   color: #56a7e1;
 }
-b{
+#login b{
   margin-top: 20px;
   margin-left: -120px;
 }
-#id{
+#login #id{
 position: relative;
 left: 2%;
 font-family:Arial, Helvetica, sans-serif
