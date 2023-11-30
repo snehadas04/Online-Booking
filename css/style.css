@@ -492,7 +492,7 @@ right: 8%;
   background-image: url("../images/background-1.png");
   background-size: cover;
   background-repeat: no-repeat;
-  height: 30vh;
+  height: 25vh;
   width: 100%;
   color: #fff;
 }
@@ -501,7 +501,7 @@ right: 8%;
   grid-template-columns: repeat(4, 1fr);
   text-align: center;
   place-items: center;
-  padding-top: 60px;
+  padding-top: 25px;
 }
 
 .counter h1 {
